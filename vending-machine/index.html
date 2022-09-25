@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vending Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <section class="section">
+        <div class="wrapper">
+            <header class="title">
+                <h1 class="ir_wa">ColaCola</h1>
+                <img class="img-logo" src="images/Logo.png" alt="logo">
+            </header>
+            <main class="contents">
+                <section class="vending-machine">
+                    <h2 class="ir_wa">음료목록 및 선택창</h2>
+                        <ol class="list-beverage">
+                            <li class="item item1">
+                                <figure>
+                                    <img class="item-img" src="images/OriginalCola.png" alt="">
+                                    <figuration class="item-name">Original_Cola</figuration>
+                                    <p class="item-cost">1000</p>
+                                </figure>
+                            </li>
+                            <li class="item item2">
+                                <figure>
+                                    <img class="item-img" src="images/VioletCola.png" alt="">
+                                    <figuration class="item-name">Violet_Cola></figuration>
+                                    <p class="item-cost">1000</p>
+                                </figure>
+                            </li>
+                            <li class="item item3">
+                                <figure>
+                                    <img class="item-img" src="images/YellowCola.png" alt="">
+                                    <figuration class="item-name">Yellow_Cola</figuration>
+                                    <p class="item-cost">1000</p>
+                                </figure>
+                            </li>
+                            <li class="item item4">
+                                <figure>
+                                    <img class="item-img" src="images/CoolCola.png" alt="">
+                                    <figuration class="item-name">Cool_Cola</figuration>
+                                    <p class="item-cost">1000</p>
+                                </figure>
+                            </li>
+                            <li class="item item5">
+                                <figure>
+                                    <img class="item-img" src="images/GreenCola.png" alt="">
+                                    <figuration class="item-name">Green_Cola</figuration>
+                                    <p class="item-cost">1000</p>
+                                </figure>
+                            </li>
+                            <li class="item item6">
+                                <figure>
+                                    <img class="item-img" src="images/OrangeCola.png" alt="">
+                                    <figuration class="item-name">Orange_Cola</figuration>
+                                    <p class="item-cost">1000</p>
+                                </figure>
+                            </li>
+                        </ol>
+                        <div class="calculation">
+                            <div class="box-balance">
+                                <div class="content-balance">
+                                    <p class="balance">잔액:</p>
+                                    <div class="won"></div>
+                                </div>
+                                <button class="btn-balnace" type="button">거스름돈 반환</button>
+                            </div>
+                            <form class="box-deposit" action="" method="get">
+                                <input class="deposit" type="text" placeholder="입금액 금액">
+                                <button class="btn-deposit" type="button">입금</button>
+                            </form>
+                            <div class="box-cart">
+                                <ol class="cart">
+                                    <li class="list list-cart">
+                                        <figure>
+                                            <img class="item-img" src="images/OriginalCola.png" alt="">
+                                            <figuration class="item-name">Original_Cola</figuration>
+                                        </figure>
+                                        <div class="item-total"></div>
+                                    </li>
+                                    <li class="list list-cart">
+                                        <figure>
+                                            <img class="item-img" src="images/GreenCola.png" alt="">
+                                            <figuration class="item-name">Green_Cola</figuration>
+                                        </figure>
+                                        <div class="item-total"></div>
+                                    </li>
+                                </ol>
+                                <button class="btn-cart" type="button">획득</button>
+                            </div>
+                        </div>
+                </section>
+                <article class="wallet">
+                    <p class="ready-money">소지금:</p>
+                    <div class="won"></div>
+                </article>
+                <section class="my-page">
+                    <h2>획득한 음료</h2>
+                    <ol class="box-storage">
+                        <li class="list list-storage">
+                            <figure>
+                                <img class="item-img" src="images/OriginalCola.png" alt="">
+                                <figuration class="item-name">Original_Cola</figuration>
+                            </figure>
+                            <div class="item-total"></div>
+                        </li>
+                        <li class="list list-storage">
+                            <figure>
+                                <img class="item-img" src="images/GreenCola.png" alt="">
+                                <figuration class="item-name">Green_Cola</figuration>
+                            </figure>
+                            <div class="item-total"></div>
+                        </li>
+                        <li class="list list-storage">
+                            <figure>
+                                <img class="item-img" src="images/OrangeCola.png" alt="">
+                                <figuration class="item-name">Orange_Cola</figuration>
+                            </figure>
+                            <div class="item-total"></div>
+                        </li>
+                        <li class="list list-storage">
+                            <figure>
+                                <img class="item-img" src="images/VioletCola.png" alt="">
+                                <figuration class="item-name">Violet_Cola</figuration>
+                            </figure>
+                            <div class="item-total"></div>
+                        </li>
+                    </ol>
+                    <div class="cost-total"></div>
+                </section>
+            </main>
+        </div>
+    </section>
+</body>
+</html>

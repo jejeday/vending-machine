@@ -1,0 +1,93 @@
+/* layouts */
+.wrapper {
+    width: 1007px;
+    margin: 0 auto;
+}
+
+/* components */
+.section {
+    background-color: #EAE8FE;
+    color: black;
+    padding: 0px 0px 171px 0px;
+}
+
+/* header */
+.title {
+    padding-bottom: 68px;
+
+}
+
+.ir_wa{
+	display:block;
+	overflow:hidden;
+	position:relative;
+	z-index:-9999;
+	width:100%;
+	height:100%;
+}
+
+.img-logo {
+    width: 386px;
+    height: 202px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* section */
+.contents {
+    padding: 31px 27px 28px 27px;
+    background-color: white;
+}
+
+.vending-machine, .wallet, .my-page {
+    background-color: coral;
+    color: black;
+}
+
+/* ol */
+.list-beverage {
+    background-color: pink;
+    display: flex;
+}
+
+.item {
+    border: 3px solid #6327FE;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    display: inline-block;
+    width: 94px;
+    height: 130px;
+}
+
+.item-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.item-name {
+    display: block;
+    margin: 0 auto;
+}
+
+.calculation {
+    background-color: blanchedalmond;
+}
+
+.wallet {
+    background-color: aqua;
+}
+
+.my-page h2 {
+    background-color: rosybrown;
+}
+
+.box-storage {
+    background-color: salmon;
+}
+
+.cost-total {
+    background-color: sandybrown;
+}
